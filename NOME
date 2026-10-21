@@ -1,0 +1,19 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+	String nome;
+ 
+String sobrenome;
+String idade;
+Console.WriteLine("INSIRA SEU NOME.");
+nome = Console.ReadLine();
+Console.WriteLine("INSIRA SEU SOBRENOME.");
+sobrenome = Console.ReadLine();
+Console.WriteLine("INSIRA SUA IDADE.");
+idade = Console.ReadLine();
+Console.WriteLine("SEU NOME COMPLETO É " + nome + " " + sobrenome + ", SUA IDADE É DE " + idade + " ANOS.");
+	}
+}
